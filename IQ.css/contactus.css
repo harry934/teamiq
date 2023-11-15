@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Contact{
+    height:115vh;
+    width:auto;
+    background-image: url(/images/istockphoto-1371966433-170667a.jpg);
+    background-size: cover;
+}
+.navigate{
+    height:12%;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+   
+}
+.logo{
+    background-image: url(/images/new\ 2.png);
+    background-size: cover;
+    height:100px;
+    width:500px;
+    margin-top: 15px;
+   
+}
+
+.home h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.home a{
+    text-decoration: none;
+}
+.home h2:hover{
+    color: orange;
+    display:block;
+
+}
+.details{
+    display: flex;
+    /* background-color:white; */
+    width:900px;
+}
+
+.About h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 150px;
+    transition: .5s ease-in-out; 
+}
+.About i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.About h2:hover{
+    color: orange;
+    display:block;
+    
+}
+
+.About:hover .htl{
+    display: block;
+} 
+.htl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none; 
+    z-index: 3;
+    position: relative;
+    margin-left: 100px;
+  
+}
+.htl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.htl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.htl a:hover{
+    color: orange;
+    
+}
+
+.Get{
+    margin-left: 1020px;
+    position: absolute;
+}
+.Get h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Get i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.Get h2:hover{
+    color: orange;
+    transition: .4s;
+}
+.Get:hover .gtl{
+    display: block;
+} 
+.gtl{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+    z-index: 33;
+    position: relative;
+  
+}
+.gtl a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color:white;
+    font-family: 'Golos Text', sans-serif;
+    transition: .5s ease-in-out;
+}
+.gtl li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.gtl a:hover{
+    color: orange;
+   
+}
+.reviews{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: 50px;
+}
+.reviews a{
+    text-decoration: none; 
+}
+.reviews h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 25px;
+    transition: .5s ease-in-out;
+}
+.reviews h2:hover{
+    color: orange;
+
+}
+
+
+.programs{
+    margin-left: 1650px;
+    position: absolute;
+}
+.programs h2{
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+    transition: .5s ease-in-out;
+}
+.programs i{
+    font-size: 20px;
+    margin-left: 10px;
+    color:orange;
+ 
+    /* display: flex; */
+}
+.programs h2:hover{
+    color: orange;
+
+}
+.programs:hover .prg{
+    display: block;
+} 
+.prg{
+    background-color: #11111f;
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border-style:  5px solid orange;
+    display:none;
+  
+}
+.prg a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    font-family: 'Golos Text', sans-serif;
+    position: relative;
+    z-index: 33;
+    transition: .5s ease-in-out;
+}
+.prg li{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.prg a:hover{
+    color: orange;
+
+}
+.CT{
+    height:1000px;
+    width:80%;
+    margin-left: 200px;
+    background-image: url(/images/geo2.jpg);
+    background-size: cover;
+    display: flex;
+    
+}
+.cont{
+    height:800px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #6610f2;
+    margin-top: 70px;
+    margin-left: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.cont h1{
+    font-size: 80px;
+    color: orangered;
+   
+    margin-top: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.cont a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 120px;
+}
+.cont i{
+    margin-top: 20px;
+    color:orange;
+    font-size: 70px;
+    transition: .5s ease-in-out;
+  
+}
+.cont i:hover {
+    color: orangered;
+
+}
+.loc{
+    display: flex;
+    margin-top: 50px;
+}
+.loc a{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.loc i{
+    margin-top: 50px;
+    transition: .5s ease-in-out;
+}
+.loc i:hover{
+    color: orangered;
+
+}
+
+.fol h5{
+    font-size: 50px;
+    color: orangered;
+   
+    margin-top: 70px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.sc{
+    display: flex;
+    margin-left: 20px;
+}
+.socia1{
+    margin-left: 5px;
+    margin-top: 10px;
+    position: absolute;
+}
+.socia1 i{
+    font-size: 50px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.socia1 i:hover{
+    color:orangered;
+
+    margin-top: 10px;
+}
+.socia2{
+    margin-left: 90px;
+    margin-top: 10px;
+    position: absolute;
+}
+.socia2 i{
+    font-size: 50px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.socia2 i:hover{
+    color:orangered;
+
+    margin-top: 10px;
+}
+.socia3{
+    margin-left: 170px;
+    margin-top: 10px;
+    position: absolute;
+}
+.socia3 i{
+    font-size: 50px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.socia3 i:hover{
+    color:orangered;
+    margin-top: 10px;
+}
+.socia4{
+    margin-left: 240px;
+    margin-top: 10px;
+    position: absolute;
+}
+.socia4 i{
+    font-size: 50px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.socia4 i:hover{
+    color:orangered;
+    margin-top: 10px;
+}
+.socia5{
+    margin-left: 330px;
+    margin-top: 10px;
+    position: absolute;
+}
+.socia5 i{
+    font-size: 50px;
+    color:white;
+    transition: .5s ease-in-out;
+}
+.socia5 i:hover{
+    color:orangered;
+    margin-top: 10px;
+}
+.ourcontimg{
+    background-image: url(/images/call.webp);
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    z-index: 2;  
+    margin-top: 30px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.ourcontimg:hover{
+    opacity:.8;
+}
+.c{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    display:none;
+    position: absolute;
+    
+    
+}
+.ourcontimg:hover .c{
+    opacity:.3;
+    border: orange solid ;
+    display:block;
+}
+.ourcontimg p{
+    margin-top: 450px;
+    margin-left: 30px;
+}
